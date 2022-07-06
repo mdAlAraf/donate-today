@@ -201,26 +201,77 @@ body {
 /* End lives depend area area */
 
 
+.update-subscription-section {
+    text-align: center;
+
+    padding-bottom: 80px;
+}
+
+.email-container {
+    width: 50%;
+    margin-left: 340px;
+}
+
+.update-subscription-section .email-container {
+    background-color: rgba(250, 244, 211, 1);
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.update-subscription-section .email-container .email-input {
+    padding: 10px 10px;
+    background-color: lightgray;
+    margin-right: 0;
+    border: none;
+}
+
+.update-subscription-section .email-container .Submit-btn {
+    margin-left: -4px;
+    padding: 10px 20px;
+    border: none;
+    background-color: orangered;
+}
+
+.update-subscription-section p {
+    margin-bottom: 50px;
+}
+
+
+
+
 
 
 
 
 /* start foter area */
 
-
 footer {
-    height: 280px;
-    display: block;
-
-    background-color: rgb(8, 8, 8);
     text-align: center;
-    margin-top: 20px;
+    background-color: black;
+    padding: 30px;
 }
 
-footer h1 {
-    font-weight: 400;
-    color: red;
+footer h2 {
+    color: tomato;
+    font-weight: 700;
+}
 
+footer p {
+    color: rgb(155, 152, 152);
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* End  foter area */
+
+footer h2 {
+    font-family: 'Lobster Two', cursive;
+}
